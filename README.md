@@ -18,8 +18,8 @@ All demos in this session are pre-recorded. The videos are the main reference fo
 |---|---|---|---|
 | 0 | **Current situation** | The Caldova legacy portfolio: 22 apps (11 Java, 11 .NET Framework). A Java 8 / Struts 1.x payment gateway and a .NET Framework 4.8 Web Forms app, including the problems hiding in each one. | At Slide |
 | 1 | **Assess at scale** | One JSON file lists the whole portfolio. The Modernize CLI sends the assessment to cloud agents in parallel, and every repo gets a pull request with architecture docs, dependencies, and security findings. | At Slide |
-| 2 | **Govern and customize** | A central skills library (PII handling, managed identity) and a Markdown rulebook, which set how the organization wants the work done. | At Slide |
-| 3 | **Execute end-to-end** | The Payment Gateway is upgraded to Java 21 and Spring Boot 3 using the assessment and the rulebook. The agent commits one reviewable phase at a time, and the public routes stay the same. | At Slide |
+| 2 | **Govern and customize** | A central skills library (PII handling, managed identity), which sets how the organization wants the work done. | At Slide |
+| 3 | **Execute end-to-end** | The Payment Gateway is upgraded to Java 21 and Spring Boot 3 using the assessment. The agent commits one reviewable phase at a time, and the public routes stay the same. | At Slide |
 
 
 ### 🚀 Getting started
@@ -47,14 +47,14 @@ If you're learning at your own pace:
 By the end of this session, you will be able to:
 
 - Explain why assessment comes first, and run a portfolio assessment from a single JSON config file
-- Use custom skills and rulebooks so agent output follows your organization's standards
+- Use custom skills so agent output follows your organization's standards
 - Upgrade a Java 8 app to Java 21 and a .NET Framework 4.8 app to .NET 10 with the Modernize CLI, and review the result like any pull request
 
 ### 💻 Technologies used
 
 - GitHub Copilot modernization (modernization agent and Modernize CLI)
 - GitHub Copilot in VS Code and Visual Studio, plus GitHub cloud agents
-- Custom skills and rulebooks
+- Custom skills
 - Java 8 / Struts 1.x → Java 21 / Spring Boot 3
 - .NET Framework 4.8 → .NET 10
 

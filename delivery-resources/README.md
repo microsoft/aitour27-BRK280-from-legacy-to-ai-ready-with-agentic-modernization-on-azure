@@ -53,7 +53,7 @@ Never cut the recap and calls to action.
 
 **Video 2 — Govern and customize.** Shows the Skills Library (`pii-handling`, `azure-managed-identity`) covering target architecture, security, and compatibility. Land it: *Skills are procedure (how we make it true).*
 
-**Video 3 — Execute end-to-end.** Shows the Payment Gateway plan (Java 21 + Spring Boot 3, from the assessment and the rulebook), phase-by-phase commits, and `PaymentAction` running as a Spring controller that still answers on `/makePayment.do`. Land it: nothing merges on its own, and one app is shown on stage because of time, not capability. The same loop works for .NET. Close with **aka.ms/ghcp-modernization** and the repo link **aka.ms/aitour27/BRK280**.
+**Video 3 — Execute end-to-end.** Shows the Payment Gateway plan (Java 21 + Spring Boot 3, from the assessment), phase-by-phase commits, and `PaymentAction` running as a Spring controller that still answers on `/makePayment.do`. Land it: nothing merges on its own, and one app is shown on stage because of time, not capability. The same loop works for .NET. Close with **aka.ms/ghcp-modernization** and the repo link **aka.ms/aitour27/BRK280**.
 
 **Likely questions**
 
