@@ -6,8 +6,8 @@ Presenter, re-delivery, and train-the-trainer materials for this session.
 
 | Item | Link | Notes |
 |---|---|---|
-| Delivery deck | Link with the AI Tour local team | The four demo videos are embedded in the deck. |
-| Session recording |  | Optional URL when available. The train-the-trainer (TTT) recording walks through the full session. |
+| Delivery deck | Avail 10.12.26 | The four demo videos are embedded in the deck. |
+| Session recording | [BRK280 Recording](https://aka.ms/aitour27/brk280/youtube) | Recording walks through the full session. |
 | Attendee landing page | [Session README](../README.md) | Public starting point |
 | Workshop/lab instructions | [Instructions](../src/README.md) | Attendee hands-on: upgrade one Java app and one .NET app, one at a time. Includes the links to demo videos 0–3. |
 
