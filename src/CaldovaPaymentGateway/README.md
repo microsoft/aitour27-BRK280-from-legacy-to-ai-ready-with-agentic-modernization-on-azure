@@ -23,8 +23,6 @@ Claims Ledger rather than performing claims adjudication.
 - Root-deployed `.do` actions such as `/makePayment.do` are redirected by Nginx
   to the retained `/payments/` prefix.
 
-![Payment gateway](../docs/assets/screenshots/caldova-payment-gateway.png)
-
 ## Key dependencies
 
 - `caldova-claims-ledger` for payment posting.

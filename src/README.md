@@ -4,10 +4,10 @@
 
 This folder has the two legacy applications you upgrade in the BRK280 hands-on. Both come from **Caldova**, the fictional 22-application portfolio used in the session videos. We copied out **one Java back end and one .NET back end** so an upgrade fits in one sitting.
 
-| Folder | Application | Starts on | Upgrade target | JSON config |
-|---|---|---|---|---|
-| [`java/CaldovaPaymentGateway/`](java/CaldovaPaymentGateway/) | Payment Gateway | Java 8, Struts 1.3, JSP, Gradle | Java 21 | [`../modernize/java-upgrade.json`](../modernize/java-upgrade.json) |
-| [`dotnet/CaldovaDrugPricingService/`](dotnet/CaldovaDrugPricingService/) | Drug Pricing Service | .NET Framework 4.8, WCF | .NET 10 | [`../modernize/dotnet-upgrade.json`](../modernize/dotnet-upgrade.json) |
+| Folder | Application | Starts on | Upgrade target |
+|---|---|---|---|
+| [`CaldovaPaymentGateway/`](CaldovaPaymentGateway/) | Payment Gateway | Java 8, Struts 1.3, JSP, Gradle | Java 21 |
+| [`CaldovaDrugPricingService/`](CaldovaDrugPricingService/) | Drug Pricing Service | .NET Framework 4.8, WCF | .NET 10 |
 
 > [IMPORTANT]
 > This code is **legacy on purpose**. The old frameworks, hand-written SQL, and plain-text configuration are the things the assessment should find and the upgrade should fix. Please don't "clean it up" before you run the lab.
@@ -19,7 +19,7 @@ This folder has the two legacy applications you upgrade in the BRK280 hands-on. 
 Posts prescription, copay, and patient-account payments and shows payment history. **This is the same app upgraded in Video 3.**
 
 ```text
-java/CaldovaPaymentGateway/
+src/CaldovaPaymentGateway/
 ├── build.gradle                         ← Java 8, Struts 1.3.10, JSTL, SQL Server JDBC, org.json (2014)
 ├── settings.gradle
 └── src/main/
@@ -67,7 +67,7 @@ java/CaldovaPaymentGateway/
 A drug pricing rate lookup exposed as a SOAP service. It has no user interface, so an upgrade can't break a screen.
 
 ```text
-dotnet/CaldovaDrugPricingService/
+src/CaldovaDrugPricingService/
 ├── CaldovaDrugPricingService.csproj     ← old-style project file, TargetFrameworkVersion v4.8
 ├── packages.config                      ← old NuGet package format
 ├── web.config                           ← connection string, WCF endpoint, debug settings
@@ -90,30 +90,30 @@ dotnet/CaldovaDrugPricingService/
 
 ## The JSON configs
 
-Each app has **its own** config file. The format is the same one you see at the start of **Video 1**: in the video it lists all 22 apps, and here each file lists one.
+Use these examples as starting points for your own CLI config files. The config files are not included in this repository. The format is the same one you see at the start of **Video 1**: in the video it lists all 22 apps, and here each example lists one.
 
-**`modernize/java-upgrade.json`**
+**Java app**
 
 ```json
 {
   "repos": [
     {
       "name": "CaldovaPaymentGateway",
-      "path": "REPLACE-WITH-ABSOLUTE-PATH/src/java/CaldovaPaymentGateway",
+      "path": "REPLACE-WITH-ABSOLUTE-PATH/src/CaldovaPaymentGateway",
       "description": "Java 8 + Struts 1.x payment service to upgrade to Java 21"
     }
   ]
 }
 ```
 
-**`modernize/dotnet-upgrade.json`**
+**.NET app**
 
 ```json
 {
   "repos": [
     {
       "name": "CaldovaDrugPricingService",
-      "path": "REPLACE-WITH-ABSOLUTE-PATH/src/dotnet/CaldovaDrugPricingService",
+      "path": "REPLACE-WITH-ABSOLUTE-PATH/src/CaldovaDrugPricingService",
       "description": ".NET Framework 4.8 WCF pricing service to upgrade to .NET 10"
     }
   ]

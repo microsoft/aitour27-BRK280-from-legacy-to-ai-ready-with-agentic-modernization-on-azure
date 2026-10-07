@@ -53,7 +53,7 @@ Never cut the recap and calls to action.
 
 **Video 2 — Govern and customize.** Shows the Skills Library (`pii-handling`, `azure-managed-identity`) covering target architecture, security, and compatibility. Land it: *Skills are procedure (how we make it true).*
 
-**Video 3 — Execute end-to-end.** Shows the Payment Gateway plan (Java 21 + Spring Boot 3, from the assessment), phase-by-phase commits, and `PaymentAction` running as a Spring controller that still answers on `/makePayment.do`. Land it: nothing merges on its own, and one app is shown on stage because of time, not capability. The same loop works for .NET. Close with **aka.ms/ghcp-modernization** and the repo link **aka.ms/aitour27/BRK280**.
+**Video 3 — Execute end-to-end.** Shows the Payment Gateway plan (Java 21 + Spring Boot 3, from the assessment), phase-by-phase commits, and `PaymentAction` running as a Spring controller that still answers on `/makePayment.do`. Land it: nothing merges on its own, and one app is shown on stage because of time, not capability. The same loop works for .NET. Close with [GitHub Copilot modernization](https://aka.ms/ghcp-modernization) and the [session repository](https://aka.ms/aitour27/BRK280).
 
 **Likely questions**
 
@@ -68,7 +68,7 @@ Never cut the recap and calls to action.
 
 There are no live demos. All four demos are pre-recorded and embedded in the deck.
 
-The full 22-app Caldova portfolio shown in the videos isn't published. To reproduce the core upgrade step, use this repo: [`src/`](../src/README.md) walks through upgrading `CaldovaPaymentGateway` (Java 8 → Java 21), the same app upgraded in Video 3, and `CaldovaDrugPricingService` (.NET Framework 4.8 → .NET 10). Each app uses its own JSON config under `modernize/`.
+The full 22-app Caldova portfolio shown in the videos isn't published. To reproduce the core upgrade step, use this repo: [`src/`](../src/README.md) walks through upgrading `CaldovaPaymentGateway` (Java 8 → Java 21), the same app upgraded in Video 3, and `CaldovaDrugPricingService` (.NET Framework 4.8 → .NET 10). The [CLI config examples](../src/README.md#the-json-configs) can be used to create a config for each app.
 
 ## Setup notes
 
