@@ -12,14 +12,14 @@ Almost every enterprise has a legacy portfolio that everyone knows needs work an
 
 ### 🎬 Session videos
 
-All demos in this session are pre-recorded. The videos are the main reference for the session, so watch them in order:
+All demos in this session are pre-recorded. The [session recording](https://aka.ms/aitour27/brk280/youtube) contains the videos in order:
 
-| # | Video | What you'll see | Watch |
-|---|---|---|---|
-| 0 | **Current situation** | The Caldova legacy portfolio: 22 apps (11 Java, 11 .NET Framework). A Java 8 / Struts 1.x payment gateway and a .NET Framework 4.8 Web Forms app, including the problems hiding in each one. | At Slide |
-| 1 | **Assess at scale** | One JSON file lists the whole portfolio. The Modernize CLI sends the assessment to cloud agents in parallel, and every repo gets a pull request with architecture docs, dependencies, and security findings. | At Slide |
-| 2 | **Govern and customize** | A central skills library (PII handling, managed identity), which sets how the organization wants the work done. | At Slide |
-| 3 | **Execute end-to-end** | The Payment Gateway is upgraded to Java 21 and Spring Boot 3 using the assessment. The agent commits one reviewable phase at a time, and the public routes stay the same. | At Slide |
+| # | Video | What you'll see |
+|---|---|---|
+| 0 | **Current situation** | The Caldova legacy portfolio: 22 apps (11 Java, 11 .NET Framework). A Java 8 / Struts 1.x payment gateway and a .NET Framework 4.8 Web Forms app, including the problems hiding in each one. |
+| 1 | **Assess at scale** | One JSON file lists the whole portfolio. The Modernize CLI sends the assessment to cloud agents in parallel, and every repo gets a pull request with architecture docs, dependencies, and security findings. |
+| 2 | **Govern and customize** | A central skills library (PII handling, managed identity), which sets how the organization wants the work done. |
+| 3 | **Execute end-to-end** | The Payment Gateway is upgraded to Java 21 and Spring Boot 3 using the assessment. The agent commits one reviewable phase at a time, and the public routes stay the same. |
 
 
 ### 🚀 Getting started
@@ -29,7 +29,7 @@ All demos in this session are pre-recorded. The videos are the main reference fo
 If you're following along during a live session:
 
 1. Watch the four demo videos as the presenter narrates them. Nothing needs to be installed during the session.
-2. Bookmark this repo at **aka.ms/aitour27/BRK280** (or scan the QR code on the closing slide).
+2. Bookmark this [repo](https://aka.ms/aitour27/BRK280) (or scan the QR code on the closing slide).
 3. Optional: After understanding the session, open [`src/`](src/README.md) to run the upgrade on your own machine.
 
 #### On your own
