@@ -6,7 +6,7 @@ Presenter, re-delivery, and train-the-trainer materials for this session.
 
 | Item | Link | Notes |
 |---|---|---|
-| Delivery deck | Slides: [English](https://aka.ms/ft27/brk280/slides/en) \| [French](https://aka.ms/ft27/brk280/slides/fr) \| [German](https://aka.ms/ft27/brk280/slides/de) | The four demo videos are embedded in the English deck. |
+| Delivery deck | [English](https://aka.ms/ft27/brk280/slides/en) \| [French](https://aka.ms/ft27/brk280/slides/fr) \| [German](https://aka.ms/ft27/brk280/slides/de) \| [Spanish](https://aka.ms/ft27/brk280/slides/es) | Demo videos are embedded in the English deck. |
 | Session recording | [BRK280 Recording](https://aka.ms/ft27/brk280/youtube) | Recording walks through the full session. |
 | Attendee landing page | [Session README](../README.md) | Public starting point |
 | Workshop/lab instructions | [Instructions](../src/README.md) | Attendee hands-on: upgrade one Java app and one .NET app, one at a time. Includes the links to demo videos 0–3. |

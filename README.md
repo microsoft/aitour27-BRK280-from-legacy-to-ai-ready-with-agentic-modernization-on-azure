@@ -65,7 +65,7 @@ Pick your next step based on your learning style:
 | Resource | What you'll get |
 |----------|-----------------|
 | **[Session Recording](https://aka.ms/ft27/brk280/youtube)** | A recording of session BRK280 by the session creator |
-| Slides: **[English](https://aka.ms/ft27/brk280/slides/en)** \| **[French](https://aka.ms/ft27/brk280/slides/fr)** \| **[German](https://aka.ms/ft27/brk280/slides/de)** | Session slides for BRK280 |
+| **[English](https://aka.ms/ft27/brk280/slides/en)** \| **[French](https://aka.ms/ft27/brk280/slides/fr)** \| **[German](https://aka.ms/ft27/brk280/slides/de)** \| **[Spanish](https://aka.ms/ft27/brk280/slides/es)** | Session slides for BRK280 |
 | **[GitHub Copilot modernization docs](https://aka.ms/ghcp-modernization)** | The official starting point for assessments, upgrades, custom skills, and the Modernize CLI |
 | **[.NET Modernization for Beginners](https://aka.ms/ghcp-appmod/dotnet-mod-beginners)** | A guided, step-by-step course for modernizing a .NET app with GitHub Copilot |
 | **[What's new in agentic modernization](https://aka.ms/agentic-modernization/build-blog)** | The full list of new features |
